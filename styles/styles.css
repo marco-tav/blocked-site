@@ -96,10 +96,29 @@ div {
   border: 10px solid black;
   border-radius: 35px;
   box-shadow: 5px 5px 5px;
+  overflow: auto;
 }
 
 p {
   color: #f0f0f0;
   font-size: 5rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1260px) {
+  p {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  p {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 2rem;
+  }
 }
